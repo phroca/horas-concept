@@ -1,0 +1,13 @@
+:root {
+  --horas-blue: #265db6;
+  --horas-blue-dark: #1c478c;
+  --horas-white: #ffffff;
+  --horas-ink: #111920;
+  --horas-ink-muted: #3d4a55;
+  --horas-soft: #f3f6fa;
+  --horas-line: #d9e1ec;
+  --horas-radius: 16px;
+  --horas-radius-sm: 10px;
+  --font-display: "Audiowide", sans-serif;
+  --font-body: "Poppins", sans-serif;
+}
