@@ -8,7 +8,7 @@ COPY . .
 RUN npm run build
 
 FROM nginx:1.27-alpine
-RUN apk add --no-cache apache2-utils
+RUN apk add --no-cache apache2-utils curl
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY docker-entrypoint.d/40-htpasswd.sh /docker-entrypoint.d/40-htpasswd.sh
@@ -17,6 +17,6 @@ RUN sed -i 's/\r$//' /docker-entrypoint.d/40-htpasswd.sh \
 
 COPY --from=build /app/dist /usr/share/nginx/html
 
-EXPOSE 80
+EXPOSE 80 3000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s \
-  CMD wget -qO- http://127.0.0.1/health || exit 1
+  CMD curl -fsS http://127.0.0.1/health || curl -fsS http://127.0.0.1:3000/health || exit 1
