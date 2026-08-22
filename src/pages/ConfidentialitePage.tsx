@@ -23,14 +23,11 @@ export function ConfidentialitePage() {
         </p>
         <h2>Finalité</h2>
         <p>
-          Répondre aux demandes de devis, de contact et de candidature. Les CV reçus par
-          e-mail sont traités uniquement pour le recrutement.
+          Répondre aux demandes de devis et de contact.
         </p>
         <h2>Durée de conservation</h2>
         <p>
-          Demandes commerciales : 3 ans après le dernier contact. Candidatures : 2 ans
-          après le dernier contact, sauf accord contraire. [À COMPLÉTER si une politique
-          interne diffère.]
+          Demandes commerciales : 3 ans après le dernier contact, sauf accord contraire.
         </p>
         <h2>Destinataires</h2>
         <p>

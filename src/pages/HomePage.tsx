@@ -53,10 +53,6 @@ export function HomePage() {
           En savoir plus sur{" "}
           <Link to="/a-propos" className="font-medium text-horas-blue hover:underline">
             l'entreprise
-          </Link>{" "}
-          ou{" "}
-          <Link to="/recrutement" className="font-medium text-horas-blue hover:underline">
-            rejoindre l'équipe
           </Link>
           .
         </p>

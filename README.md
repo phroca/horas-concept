@@ -1,6 +1,6 @@
 # HORAS CONCEPT — Maquette React
 
-Site vitrine (8 pages) pour validation visuelle avant intégration WordPress / Elementor / Hello.
+Site vitrine (7 pages) pour validation visuelle avant intégration WordPress / Elementor / Hello.
 
 ## Scripts
 

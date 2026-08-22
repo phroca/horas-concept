@@ -6,7 +6,6 @@ import { ContactPage } from "./pages/ContactPage"
 import { HomePage } from "./pages/HomePage"
 import { MentionsLegalesPage } from "./pages/MentionsLegalesPage"
 import { RealisationsPage } from "./pages/RealisationsPage"
-import { RecrutementPage } from "./pages/RecrutementPage"
 import { SavoirFairePage } from "./pages/SavoirFairePage"
 
 export default function App() {
@@ -18,7 +17,6 @@ export default function App() {
           <Route path="savoir-faire" element={<SavoirFairePage />} />
           <Route path="realisations" element={<RealisationsPage />} />
           <Route path="a-propos" element={<AProposPage />} />
-          <Route path="recrutement" element={<RecrutementPage />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="mentions-legales" element={<MentionsLegalesPage />} />
           <Route path="confidentialite" element={<ConfidentialitePage />} />

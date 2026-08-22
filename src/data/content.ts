@@ -46,7 +46,6 @@ export const nav = [
   { to: "/savoir-faire", label: "Savoir-faire" },
   { to: "/realisations", label: "Réalisations" },
   { to: "/a-propos", label: "À propos" },
-  { to: "/recrutement", label: "Recrutement" },
   { to: "/contact", label: "Contact" },
 ] as const
 
@@ -238,31 +237,6 @@ export const projects = [
 ] as const
 
 export const projectFilters = ["Tous", "Tertiaire public", "Bureaux", "Commerce"] as const
-
-export const jobs = [
-  {
-    title: "Conducteur de travaux TCE — Lots architecturaux",
-    contract: "CDI",
-    location: "Saint-Michel-sur-Orge (91)",
-    pillars: [
-      { title: "Maîtrise chantier", text: "Piloter des chantiers architecturaux de A à Z : clos-couvert, second œuvre, finitions." },
-      { title: "Exigence qualité", text: "Garantir le planning, le budget, les normes et la qualité d'exécution." },
-      { title: "Coordinateur", text: "Interface entre intervenants, sous-traitants et suivi administratif, financier et technique." },
-    ],
-    profile: [
-      "5 ans minimum en conduite de travaux TCE, sensibilité architecturale",
-      "Formation Bac+2 à Bac+5 dans le BTP",
-      "Autonomie, rigueur, réactivité, excellent relationnel",
-      "Outils de suivi : MS Project, Excel, AutoCAD",
-    ],
-    perks: [
-      "Entreprise à taille humaine, en plein essor",
-      "Projets variés et exigeants",
-      "Véhicule de service, ordinateur, téléphone",
-      "Primes possibles",
-    ],
-  },
-] as const
 
 export const whyUs = [
   { title: "Expertise", text: "Une équipe de professionnels expérimentés et passionnés par leur métier." },
