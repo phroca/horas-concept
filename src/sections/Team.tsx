@@ -17,15 +17,17 @@ export function Team() {
         {teamGroups.map((group) => (
           <div key={group.title}>
             <h3 className="text-xs font-semibold tracking-[0.22em] text-horas-blue uppercase">{group.title}</h3>
-            <ul className="mt-6 flex flex-wrap gap-x-10 gap-y-10">
+            <ul className="mt-6 grid grid-cols-1 gap-x-14 gap-y-10 sm:grid-cols-2">
               {group.members.map((member) => (
-                <li key={member.name} className="w-[15.5rem]">
-                  <div className="flex h-36 w-36 items-end justify-center overflow-hidden rounded-full bg-horas-soft">
+                <li key={member.name} className="flex gap-5">
+                  <div className="flex h-28 w-28 shrink-0 items-end justify-center overflow-hidden rounded-full bg-horas-soft">
                     <img src={member.photo} alt="" className="h-full w-full object-contain object-bottom" />
                   </div>
-                  <p className="mt-4 text-base font-semibold text-horas-ink">{member.name}</p>
-                  <p className="mt-1 text-sm text-horas-blue">{member.role}</p>
-                  <p className="mt-2 text-sm leading-relaxed text-horas-muted">{member.bio}</p>
+                  <div className="min-w-0">
+                    <p className="text-base font-semibold text-horas-ink">{member.name}</p>
+                    <p className="mt-1 text-sm text-horas-blue">{member.role}</p>
+                    <p className="mt-2 text-sm leading-relaxed text-horas-muted">{member.bio}</p>
+                  </div>
                 </li>
               ))}
             </ul>
