@@ -334,6 +334,33 @@ export const whyUs = [
   { title: "Responsabilité environnementale", text: "Un engagement fort pour des pratiques de construction durables." },
 ] as const
 
+export const aboutStory = {
+  title: "Une entreprise à taille humaine, exigeante sur le terrain.",
+  paragraphs: [
+    "HORAS CONCEPT aménage les espaces professionnels partout en France : cloisons amovibles et sèches, faux-plafonds, peinture, revêtements de sols, carrelage, faïence et menuiseries intérieures. Des solutions sur mesure, pensées pour le bien-être des utilisateurs et la productivité des entreprises.",
+    "Fondée par Stéphane Brasseur après 28 ans dans le BTP, l'entreprise allie exigence d'exécution, innovation et pratiques éco-responsables. Dix collaborateurs pilotent les appels d'offres, coordonnent les lots et réalisent les travaux — y compris en site occupé.",
+  ],
+  offerTitle: "Ce que nous prenons en charge",
+  offer: [
+    "Gestion administrative et financière",
+    "Élaboration des appels d'offres",
+    "Gestion des achats chantier",
+    "Préconisation des matériaux selon votre charte",
+    "Accompagnement à toutes les étapes du projet",
+    "Direction d'exécution des travaux",
+    "Pilotage et coordination des corps d'état",
+    "Travaux réalisés avec des sous-traitants sélectionnés",
+    "Garantie et suivi des prestations",
+  ],
+} as const
+
+export const fleet = {
+  eyebrow: "Parc automobile",
+  title: "Des véhicules identifiés, pour intervenir partout en France.",
+  text: "La flotte HORAS CONCEPT relie le siège et l'atelier aux chantiers, partout dans le pays. Véhicules aux couleurs de l'entreprise, dont un modèle électrique : moins de nuisances, une présence lisible sur site, et une logistique calée sur les plannings — y compris en site occupé.",
+  image: "/flotte.jpg",
+} as const
+
 export const premises = {
   eyebrow: "Nos locaux",
   title: "Siège et atelier, au service des chantiers.",

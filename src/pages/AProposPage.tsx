@@ -3,6 +3,7 @@ import { AboutStory } from "../sections/AboutStory"
 import { Certifications } from "../sections/Certifications"
 import { CtaBanner } from "../sections/CtaBanner"
 import { EcoBand } from "../sections/EcoBand"
+import { Fleet } from "../sections/Fleet"
 import { PageHero } from "../sections/PageHero"
 import { Partners } from "../sections/Partners"
 import { Premises } from "../sections/Premises"
@@ -23,6 +24,9 @@ export function AProposPage() {
       <section className="bg-horas-soft">
         <div className="mx-auto max-w-6xl px-5 py-16 md:py-20">
           <Premises />
+          <div className="mt-16">
+            <Fleet />
+          </div>
         </div>
       </section>
       <section className="mx-auto max-w-6xl px-5 py-16 md:py-20">
