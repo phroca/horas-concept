@@ -1,10 +1,14 @@
+import type { ReactNode } from "react"
+
 type PageHeroProps = {
   eyebrow?: string
   title: string
   subtitle?: string
+  children?: ReactNode
+  after?: ReactNode
 }
 
-export function PageHero({ eyebrow, title, subtitle }: PageHeroProps) {
+export function PageHero({ eyebrow, title, subtitle, children, after }: PageHeroProps) {
   return (
     <section className="bg-horas-ink text-white">
       <div className="mx-auto max-w-6xl px-5 py-16 md:py-20">
@@ -13,6 +17,7 @@ export function PageHero({ eyebrow, title, subtitle }: PageHeroProps) {
             {eyebrow}
           </p>
         ) : null}
+        {children}
         <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight md:text-5xl">
           {title}
         </h1>
@@ -21,6 +26,7 @@ export function PageHero({ eyebrow, title, subtitle }: PageHeroProps) {
             {subtitle}
           </p>
         ) : null}
+        {after}
       </div>
     </section>
   )

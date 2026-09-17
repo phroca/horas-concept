@@ -95,7 +95,11 @@ export function Contact() {
           </a>
         </p>
         {company.phone ? (
-          <p className="mt-2 text-sm text-horas-muted">Téléphone : {company.phone}</p>
+          <p className="mt-2 text-sm">
+            <a className="font-medium text-horas-blue hover:underline" href={company.phoneHref}>
+              {company.phone}
+            </a>
+          </p>
         ) : null}
         <div className="mt-8 overflow-hidden rounded-horas-sm border border-horas-line bg-white">
           <iframe

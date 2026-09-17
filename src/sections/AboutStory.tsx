@@ -1,11 +1,11 @@
-import { company, images, whyUs } from "../data/content"
+import { company, premises, whyUs } from "../data/content"
 
 export function AboutStory() {
   return (
     <div className="grid items-center gap-10 lg:grid-cols-2">
       <img
-        src={images.site}
-        alt="Chantier d'aménagement intérieur"
+        src={premises.images[0]}
+        alt="Bureaux HORAS CONCEPT"
         className="h-80 w-full rounded-horas object-cover lg:h-[28rem]"
       />
       <div>
@@ -16,14 +16,13 @@ export function AboutStory() {
           Une entreprise à taille humaine, exigeante sur le terrain.
         </h2>
         <p className="mt-4 text-sm leading-relaxed text-horas-muted">
-          HORAS CONCEPT est une entreprise de BTP spécialisée dans l'aménagement d'espaces
-          professionnels, basée à {company.address.city}. Notre mission : transformer vos
-          espaces de travail en environnements inspirants, fonctionnels et respectueux de
-          l'environnement.
+          HORAS CONCEPT aménage les espaces professionnels partout en France : cloisons,
+          faux-plafonds, sols, peinture, carrelage et menuiseries. Notre mission : des
+          espaces fonctionnels, durables, livrés dans les règles de l'art.
         </p>
         <p className="mt-3 text-sm leading-relaxed text-horas-muted">
-          De 2 à 10 collaborateurs, nous restons proches des chantiers et des clients — avec
-          une organisation capable d'intervenir partout en France.
+          Dix collaborateurs pilotent les appels d'offres, coordonnent les lots et
+          exécutent les travaux — y compris en site occupé.
         </p>
         <dl className="mt-8 grid gap-4 sm:grid-cols-2">
           {whyUs.map((item) => (

@@ -5,6 +5,7 @@ import { CtaBanner } from "../sections/CtaBanner"
 import { EcoBand } from "../sections/EcoBand"
 import { FeaturedProject } from "../sections/FeaturedProject"
 import { Hero } from "../sections/Hero"
+import { Partners } from "../sections/Partners"
 import { ServicesGrid } from "../sections/ServicesGrid"
 import { TrustBar } from "../sections/TrustBar"
 import { Values } from "../sections/Values"
@@ -31,6 +32,9 @@ export function HomePage() {
       </section>
       <section className="mx-auto max-w-6xl px-5 py-16 md:py-20">
         <FeaturedProject />
+      </section>
+      <section className="mx-auto max-w-6xl px-5 py-16 md:py-20">
+        <Partners />
       </section>
       <section className="bg-horas-soft">
         <div className="mx-auto max-w-6xl px-5 py-16 md:py-20">

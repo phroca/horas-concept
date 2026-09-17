@@ -27,7 +27,10 @@ export function Header() {
             </NavLink>
           ))}
         </nav>
-        <div className="hidden lg:block">
+        <div className="hidden items-center gap-5 lg:flex">
+          <a href={company.phoneHref} className="text-sm font-semibold text-horas-ink hover:text-horas-blue">
+            {company.phone}
+          </a>
           <Button to="/contact">Demander un devis</Button>
         </div>
         <button
@@ -69,7 +72,13 @@ export function Header() {
               Demander un devis
             </Button>
           </div>
-          <p className="mt-3 text-center text-xs text-horas-muted">{company.email}</p>
+          <p className="mt-3 text-center text-xs text-horas-muted">
+            <a href={company.phoneHref} className="font-medium text-horas-ink">
+              {company.phone}
+            </a>
+            <span className="mx-2 text-horas-line">·</span>
+            {company.email}
+          </p>
         </div>
       ) : null}
     </header>

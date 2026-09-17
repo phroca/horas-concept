@@ -40,7 +40,9 @@ export function Footer() {
             {company.phone ? (
               <>
                 <br />
-                <span className="mt-1 inline-block text-white/50">Tél. {company.phone}</span>
+                <a className="mt-1 inline-block text-white/70 hover:text-white" href={company.phoneHref}>
+                  Tél. {company.phone}
+                </a>
               </>
             ) : null}
           </address>

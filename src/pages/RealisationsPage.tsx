@@ -10,15 +10,15 @@ export function RealisationsPage() {
       <PageHero
         eyebrow="Réalisations"
         title="Des chantiers livrés, des typologies maîtrisées."
-        subtitle="Étude de cas réelle à Longuenesse, et exemples de typologies (visuels stock) en attendant vos photos de chantier."
+        subtitle="Cinq réalisations tertiaire public : Finances publiques et Douanes, en site occupé ou inoccupé."
       />
       <section className="mx-auto max-w-6xl px-5 py-16 md:py-20">
         <FeaturedProject />
         <div className="mt-16">
           <SectionHeading
             eyebrow="Portfolio"
-            title="Sélection de projets et typologies"
-            subtitle="Les cartes marquées « Typologie » utilisent des visuels d'illustration."
+            title="Sélection de projets"
+            subtitle="Photos et descriptifs fournis par HORAS CONCEPT. D'autres chantiers suivront."
           />
           <div className="mt-8">
             <ProjectsGrid />

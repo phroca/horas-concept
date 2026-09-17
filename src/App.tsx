@@ -5,6 +5,7 @@ import { ConfidentialitePage } from "./pages/ConfidentialitePage"
 import { ContactPage } from "./pages/ContactPage"
 import { HomePage } from "./pages/HomePage"
 import { MentionsLegalesPage } from "./pages/MentionsLegalesPage"
+import { RealisationPage } from "./pages/RealisationPage"
 import { RealisationsPage } from "./pages/RealisationsPage"
 import { SavoirFairePage } from "./pages/SavoirFairePage"
 
@@ -16,6 +17,7 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="savoir-faire" element={<SavoirFairePage />} />
           <Route path="realisations" element={<RealisationsPage />} />
+          <Route path="realisations/:slug" element={<RealisationPage />} />
           <Route path="a-propos" element={<AProposPage />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="mentions-legales" element={<MentionsLegalesPage />} />

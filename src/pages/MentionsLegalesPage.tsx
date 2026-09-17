@@ -48,14 +48,12 @@ export function MentionsLegalesPage() {
         <h2>Propriété intellectuelle</h2>
         <p>
           L'ensemble des contenus de ce site (textes, identités visuelles, photographies
-          de chantier) est protégé. Toute reproduction non autorisée est interdite. Les
-          photographies d'illustration issues de banques d'images restent la propriété de
-          leurs auteurs.
+          de chantier) est protégé. Toute reproduction non autorisée est interdite.
         </p>
         <h2>Crédits photographiques</h2>
         <p>
-          Certaines images sont des visuels stock (Unsplash) utilisés pour la maquette.
-          Elles devront être remplacées par les photos de chantiers HORAS CONCEPT.
+          Les photographies de chantiers sont publiées avec l’accord d’HORAS CONCEPT.
+          Toute réutilisation hors de ce site est interdite sans autorisation.
         </p>
       </Legal>
     </section>
